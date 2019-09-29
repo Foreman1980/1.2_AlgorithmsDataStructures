@@ -32,6 +32,7 @@ while True:
         c = 'Частное'
     else:
         print('Ошибка, повторите ввод символа операции: ')
+        continue
     x = int(input(f'Ведите {a} - '))
     y = int(input(f'Ведите {b} - '))
     while oper == '/' and y == 0:
