@@ -27,7 +27,6 @@ for i in range(len(myList)):
 
 # Необязательная часть...захотелось сделать указатели...
 print('\nМаксимальный и минимальный элементы - ', end='')
-pointer = ''
 for i in range(len(myList)):
     if i == posMinItem or i == posMaxItem:
         print(f'{chr(5839):>4}', end='')
