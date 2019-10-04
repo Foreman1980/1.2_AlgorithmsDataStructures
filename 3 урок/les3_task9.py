@@ -13,7 +13,7 @@ for row in myMatrix:
 
 maxItem = None
 for i in range(len(myMatrix[0])):
-    minItem = row[0]
+    minItem = myMatrix[0][i]
     for j in range(len(myMatrix)):
         if myMatrix[j][i] < minItem:
             minItem = myMatrix[j][i]
