@@ -9,3 +9,4 @@
 *.mp4
 example*.py
 /4 урок/__pycache__/
+*.pdf
