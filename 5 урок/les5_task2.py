@@ -45,6 +45,7 @@ def hexSum(xList, yList):
     resultHex.reverse()
     return list(resultHex)
 
+
 def hexMult(xList, yList):
     if len(yList) > len(xList):
         xList, yList = yList[:], xList[:]
@@ -66,10 +67,12 @@ def hexMult(xList, yList):
         digit += 1
     return spam
 
+
 a = ['a', '2']
 b = ['c', '4', 'F']
 print(f'\nСумма чисел: {a} + {b} = {hexSum(a, b)}')
 print(f'\nПроизведение чисел: {a} * {b} = {hexMult(a, b)}')
+
 
 # Вывод вида -  Сумма чисел: ['a', '2'] + ['c', '4', 'F'] = ['C', 'F', '1']
 #
